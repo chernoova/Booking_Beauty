@@ -19,7 +19,7 @@ async def main():
         format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     )
 
-    bot = Bot('6357080266:AAEpilOn7y2QT5awRMF7Qa6cwlMxTpkcryY')
+    bot = Bot('<TOKEN>')
 
     dp.include_router(registration.router)
     dp.include_router(menu.router)
